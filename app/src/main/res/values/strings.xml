@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MovieNaver</string>
+    <string name="movie_name_hint">영화의 이름을 검색 해 보세요</string>
 </resources>

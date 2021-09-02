@@ -1,5 +1,6 @@
 package com.sungbin.movienaver.network
 
+import com.sungbin.movienaver.data.MovieSearchResponse
 import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.http.GET
@@ -10,5 +11,5 @@ interface NaverService {
     fun getMovieInfoList(
         @Query("query") searchText: String,
         @Query("display") displayCount: Int
-    ): Call<ResponseBody>
+    ): Call<MovieSearchResponse>
 }
